@@ -1,0 +1,80 @@
+const sampleData = {
+    products: [
+        {
+            name: 'biliod ball',
+            slug: 'biliod-ball',
+            category: 'sports',
+            image: '/assets/images/img1.jpg',
+            price: 'Rs.100',
+            brand: 'any brand',
+            rating: 4.5,
+            numReviews: 10,
+            Stock: 10,
+            description: '9 pack of biliod balls',
+            isFeatured: true,
+            banner: '/assets/images/banner1.jpg',
+        },
+
+        {
+            name: 'ping pong ball',
+            slug: 'ping-pong-ball',
+            category: 'sports',
+            image: '/assets/images/img2.jpg',
+            price: 'Rs.100',
+            brand: 'any brand',
+            rating: 4.5,
+            numReviews: 10,
+            Stock: 10,
+            description: 'ping pong ball',
+            isFeatured: true,
+            banner: '/assets/images/banner2.jpg',
+        },
+
+        {
+            name: 'hole ball',
+            slug: 'hole-ball',
+            category: 'sports',
+            image: '/assets/images/img3.jpg',
+            price: 'Rs.100',
+            brand: 'any brand',
+            rating: 4.5,
+            numReviews: 10,
+            Stock: 10,
+            description: 'hole ball',
+            isFeatured: true,
+            banner: '/assets/images/banner3.jpg',
+        },
+
+        {
+            name: 'black ball',
+            slug: 'black-ball',
+            category: 'sports',
+            image: '/assets/images/img4.jpg',
+            price: 'Rs.100',
+            brand: 'any brand',
+            rating: 4.5,
+            numReviews: 10,
+            Stock: 10,
+            description: 'black ball',
+            isFeatured: true,
+            banner: '/assets/images/banner4.jpg',
+        },
+
+        {
+            name: 'basket ball',
+            slug: 'basket-ball',
+            category: 'sports',
+            image: '/assets/images/img5.jpg',
+            price: 'Rs.100',
+            brand: 'any brand',
+            rating: 4.5,
+            numReviews: 10,
+            Stock: 10,
+            description: 'basket ball',
+            isFeatured: true,
+            banner: '/assets/images/banner5.jpg',
+        }
+    ],
+}
+
+export default sampleData;
