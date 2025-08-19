@@ -12,7 +12,7 @@ const ProductCard = ({ product }: { product: any }) => {
             alt={product.name}
             className="aspect-square object-cover rounded"
             height={300}
-            src={product.image || '/assets/images/img1.jpg'}
+            src={product.images![0]}
             width={300}
           />
         </Link>
@@ -33,10 +33,10 @@ const ProductCard = ({ product }: { product: any }) => {
         </div>
 
         {/* Rating and price/stock */}
-        <div className="flex justify-between gap-4">
+        <div className="flex-between gap-4">
           <p>{product.rating} stars</p>
-          {(product.Stock || product.stock) > 0 ? (
-            <p className="font-bold">{product.price}</p>
+          {product.stock > 0 ? (
+            <p className="font-bold">${product.price}</p>
           ) : (
             <p className="text-destructive">Out of Stock</p>
           )}
